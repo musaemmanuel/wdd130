@@ -1,8 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rock+Salt&display=swap');import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rock+Salt&display=swap');
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #396E94   ;
@@ -11,7 +10,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Roboto";
+  --heading-font: "Rock Salt";
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -19,7 +18,7 @@ Fonts are separated by a & */
   --headline-color-on-color: rgb(17, 16, 16); /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: rgb(161, 108, 108); /* paragraph text on a colored background */ 
-  --paragraph-background-color: #7ee975  ;
+  --paragraph-background-color: #131314  ;
   --nav-link-color: #396E94;
   --nav-background-color: #241e0a;
   --nav-hover-link-color: rgb(41, 23, 23);
