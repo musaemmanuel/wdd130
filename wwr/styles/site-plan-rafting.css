@@ -10,17 +10,17 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Rock Salt";
+  --heading-font: "Rock salt";
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: hsl(0, 50%, 98%);  /* headlines on a white background */ 
-  --headline-color-on-color: hsl(0, 82%, 26%); /* headlines on a colored background */ 
-  --paragraph-color-on-white: #fff7f7; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #833f3f; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #2e0303;
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(17, 16, 16); /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: rgb(161, 108, 108); /* paragraph text on a colored background */ 
+  --paragraph-background-color: #7ee975  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #5615ec;
+  --nav-background-color: #241e0a;
   --nav-hover-link-color: rgb(41, 23, 23);
   --nav-hover-background-color: #396E94;
 }
