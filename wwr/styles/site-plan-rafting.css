@@ -4,8 +4,8 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rock+Salt&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
+  --primary-color: #000814;
+  --secondary-color: #E7C24F;
   --accent1-color: #A42212;
   --accent2-color: white;
 
