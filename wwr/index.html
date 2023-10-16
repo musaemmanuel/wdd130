@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    <header>
+<body> 
+    <div id="content">
+    <header> 
        <a id="logo_link" href="index.html">
         <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
        </a>
@@ -43,15 +46,17 @@
             <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
             <img class="icon" src="images/oars.png" alt="oars icon">
             <h2>Rapids</h2>
-
         </section>
+        <div id="background"></div>
         <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
         <section class="msg">
             <h2>More Than Just The Thrill</h2>
             <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
             <a class='join' href="rivers.html">Join Us</a>
+        </section>
     </main>
     <footer>
+        </div>
         <p>Dry Oar &copy; 2023 - Emmanuel Musa Koweh</p>
         <p><a href="site-plan-rafting.html">Site Plan</a></p>
         <p><a href="contactus.html">Contact Us</a></p>
@@ -67,43 +72,6 @@
             </a>
         </div>
     </footer>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+</div>
 </body>
 </html>
