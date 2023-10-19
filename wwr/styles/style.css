@@ -10,6 +10,10 @@ nav a {
 h1 {
     text-align: center;
 }
+h2 {
+    margin: 0;
+    background-color: aliceblue;
+}
 h4 {
     text-align: center;
 }
@@ -29,18 +33,35 @@ p a {
     height: 725px;
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: blanchedalmond;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: hsl(0, 7%, 92%);
+    background-color: hwb(0 0% 97%);
 }
 nav a:hover {
     background-color: aqua;
 }
 .book, .join {
-    text-align: center;
+    text-align: left;
     background-color: hsl(240, 20%, 96%);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    border: 10px solid #110a00;
+}
+.rivers-card, .comping-card, .rapids-card {
+    margin: 200px 0;
 }
 .book:hover, .join:hover {
     background-color: hsl(40, 18%, 93%);
@@ -50,28 +71,39 @@ nav a:hover {
 }
 .msg {
     background-color: #afb1b3;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
     color: rgb(240, 248, 255);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    background-color: #afb1b3;
-    color: aliceblue;
+    background-color: hsl(210, 57%, 47%);
+    color: hwb(200 92% 7%);
 }
 .msg h2 {
-    background-color: antiquewhite;
+    background-color: #535250;
 }
 .msg p {
     background-color: whitesmoke;
     color: rgb(245, 245, 245);
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: azure;
+    padding: 25px 50px;
+}
+footer .social img {
+    padding: 15;
 }
 footer a {
     background-color: rgb(245, 234, 234);
-    color: #f3eaea ;
+    color: hwb(0 0% 96%) ;
 }footer a:hover {
     background-color: blue;
     color: rgb(0, 0, 255)
@@ -81,18 +113,23 @@ footer a {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
 }
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 footer a {
     text-align: center;
-    color: burlywood;
+    color: hsl(33, 82%, 2%);
     text-decoration: none;
 }
 footer p {
