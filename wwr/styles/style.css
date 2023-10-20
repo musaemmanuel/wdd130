@@ -1,6 +1,7 @@
-div {
-    text-align: left;
+content {
+    text-align: center;
     max-width: 1600px;
+    margin: 0 auto;
 }
 nav a {
     text-align: center;
@@ -10,7 +11,7 @@ h1 {
 }
 h2 {
     margin: 0;
-    background-color: aliceblue;
+    background-color: #05121d;
 }
 main {
     text-align: center;
@@ -39,7 +40,7 @@ nav a:hover {
 }
 .book, .join {
     text-align: left;
-    background-color: hsl(240, 20%, 96%);
+    background-color: hsl(240, 21%, 14%);
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -119,11 +120,20 @@ nav a {
 }
 footer a {
     text-align: left;
-    color: hsl(33, 82%, 2%);
+    background-color: hsl(33, 82%, 2%);
     text-decoration: none;
 }
 footer p {
     text-align: left;
     font-size: 1.2em;
     text-decoration: none;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.buttom-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
 }
