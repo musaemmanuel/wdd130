@@ -1,8 +1,6 @@
 div {
+    text-align: left;
     max-width: 1600px;
-}
-div {
-    max-width: 0 auto;
 }
 nav a {
     text-align: center;
@@ -13,12 +11,6 @@ h1 {
 h2 {
     margin: 0;
     background-color: aliceblue;
-}
-h4 {
-    text-align: center;
-}
-div {
-    text-align: center;
 }
 main {
     text-align: center;
@@ -82,6 +74,7 @@ main section img {
     margin-top: 10px;
 }
 h4 {
+    text-align: center;
     background-color: hsl(210, 57%, 47%);
     color: hwb(200 92% 7%);
 }
@@ -101,10 +94,7 @@ footer {
 footer .social img {
     padding: 15;
 }
-footer a {
-    background-color: rgb(245, 234, 234);
-    color: hwb(0 0% 96%) ;
-}footer a:hover {
+footer a:hover {
     background-color: blue;
     color: rgb(0, 0, 255)
 }
@@ -128,11 +118,12 @@ nav a {
     padding: 35px;
 }
 footer a {
-    text-align: center;
+    text-align: left;
     color: hsl(33, 82%, 2%);
     text-decoration: none;
 }
 footer p {
+    text-align: left;
     font-size: 1.2em;
-    text-decoration: underline;
+    text-decoration: none;
 }
