@@ -8,7 +8,7 @@ h1 {
 }
 h2 {
     margin: 0;
-    background-color: #05121d;
+    background-color: hsl(210, 14%, 95%);
 }
 main {
     text-align: center;
@@ -39,7 +39,11 @@ header {
     align-self: center;
 }
 nav a:hover {
-    background-color: aqua;
+    background-color: rgb(58, 10, 134);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 .book, .join {
     text-align: center;
@@ -58,7 +62,7 @@ main section img {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px hsl(80, 13%, 91%);
 }
 .card-img {
     border: 10px solid #d9c2a3;
@@ -107,7 +111,7 @@ main section img {
 }
 h4 {
     text-align: center;
-    background-color: hsl(210, 57%, 47%);
+    background-color: hsl(210, 2%, 41%);
     color: hwb(200 92% 7%);
 }
 .msg h2 {
@@ -131,8 +135,8 @@ footer .social img {
     padding: 15px;
 }
 footer a:hover {
-    background-color: blue;
-    color: rgb(0, 0, 255)
+    background-color: #cecedd;
+    color: rgb(162, 162, 175)
 }
 .logo {
     width: 80px;
@@ -140,6 +144,10 @@ footer a:hover {
 .icon {
     width: 80px;
     padding-top: 10px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 10fr;
 }
 #hero {
     display: grid;
@@ -162,7 +170,6 @@ footer a:hover {
 }
 #logo_link {
     padding-top: 5px;
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -174,7 +181,7 @@ nav a {
 }
 footer a {
     text-align: left;
-    background-color: hsl(33, 82%, 2%);
+    background-color: hsl(39, 21%, 87%);
     text-decoration: none;
 }
 footer p {
