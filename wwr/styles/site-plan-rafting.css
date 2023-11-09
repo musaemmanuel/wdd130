@@ -4,22 +4,22 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rock+Salt&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #000814;
-  --secondary-color: #001d3d;
-  --accent1-color: #A43312;
+  --primary-color: #396E94   ;
+  --secondary-color: #E7C24F ;
+  --accent1-color: #A42212;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rock salt";
   --paragraph-font: Roboto, Helvetica, sans-serif;
-
+  
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #000814;  /* headlines on a white background */ 
-  --headline-color-on-color: #001d3d; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #A43312; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #000814; /* paragraph text on a colored background */ 
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(17, 16, 16); /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: rgb(161, 108, 108); /* paragraph text on a colored background */ 
   --paragraph-background-color: #7ee975  ;
-  --nav-link-color: #cad0d4;
+  --nav-link-color: #396E94;
   --nav-background-color: #241e0a;
   --nav-hover-link-color: rgb(41, 23, 23);
   --nav-hover-background-color: #396E94;

@@ -1,0 +1,107 @@
+/* CSS - Name: "personalwebsitestyles.css" */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(assests/BACKGROUND.png);
+    background-size: 1350px;
+    background-position: center;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    align-items: start;
+    
+}
+h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 10);
+    color: white;
+    
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    border: inherit;
+    padding: 20px 0;
+}
+nav ul {
+    list-style-type: style none; ;
+}
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+
+    }
+    a{
+        color: aqua;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #fff;
+    }
+    .restaurant {
+        background-color:transparent;
+        padding: 20px;
+        margin: 20px 0;
+        border: 5px solid #ddd;
+        border-radius: 5px;
+    }
+    li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background-color: white;
+        margin: auto;
+        display: block;
+    }
+    li a:hover::after{
+        width: 100%;
+        transition: width 0.3s linear;
+    }
+    a{
+        text-decoration-line: none;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    fieldset{
+        height: fit-content;
+        width: fit-content;
+    }
+    .content{
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        position: relative;
+    }
+    .content.cn{
+        width: 160px;
+        height: 40px;
+        background: blue;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+   
+   
+    
+  
