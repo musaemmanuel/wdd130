@@ -101,7 +101,7 @@ main section img {
     background-color: hsl(40, 18%, 93%);
 }
 #background {
-    background-color: darkgoldenrod;
+    background-color: rgb(255, 255, 254);
 }
 .msg {
     background-color: #afb1b3;
@@ -251,4 +251,3 @@ main section {
         margin-top: 25px;
     }
 }
-            
