@@ -11,8 +11,9 @@ h1 {
     color: red;
 }
 h2 {
+    color: #fcfbfb;
     margin: 0;
-    background-color: hsl(210, 14%, 95%);
+    background-color: white;
 }
 main {
     text-align: center;
