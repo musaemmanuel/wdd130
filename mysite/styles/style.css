@@ -48,7 +48,7 @@ header {
     align-self: center;
 }
 nav a:hover {
-    background-color: rgb(58, 10, 134);
+    background-color: rgb(89, 49, 153);
 }
 nav {
     display: flex;
@@ -126,7 +126,7 @@ h4 {
     background-color: #535250;
 }
 .msg p {
-    background-color: rgb(15, 14, 14);
+    background-color: rgb(80, 43, 43);
     color: rgb(245, 245, 245);
     font-size: 1.5em;
     padding-bottom: 15px;

@@ -20,7 +20,7 @@ header{
   }
   .link{
     margin: -25px;
-    margin-left: 800px;
+    margin-left: 600px;
     word-spacing: 70px;
     
   }
@@ -35,7 +35,7 @@ header{
     padding: 20px
   }
   .text{
-    background-color: rgba(44, 61, 77, 0.829);
+    background-color: rgba(183, 209, 233, 0.829);
   }
   .description{
     margin-left: 50px;
