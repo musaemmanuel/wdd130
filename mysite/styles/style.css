@@ -41,7 +41,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: hwb(0 0% 97%);
+    background-color: #396E94 ;
     display: grid;
     grid-template-columns: 150px auto;
     justify-self: center;
