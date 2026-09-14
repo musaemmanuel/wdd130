@@ -1,0 +1,146 @@
+:root {
+    --primary-color: #1b4965;
+    --secondary-color: #62b6cb;
+    --accent1-color: #540af3;
+    --accent2-color: #74e072;
+    --heading-font: "Georgia", "Times New Roman", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 16px;
+}
+
+header .logo {
+    height: 60px;
+    width: auto;
+    display: block;
+    margin-bottom: 8px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+section {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* =========================
+   HERO SECTION
+   ========================= */
+
+.hero {
+    position: relative;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.85;
+    background-color: var(--accent1-color);
+    color: #fff;
+    margin: 0;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    background-color: var(--accent2-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+
+    padding: 16px;
+    overflow: hidden;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+
+    margin: 0 0 10px 15px;
+
+    border: 2px solid #fff;
+}
+
+.hero article p {
+    margin: 0;
+    padding: 0;
+
+    line-height: 1.6;
+    text-align: left;
+}
+
+/ section {
+    line-height: 1.6;
+}
+
+section p {
+    margin-bottom: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 2%;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.socialmedia img {
+    width: 32px;
+    height: auto;
+}
