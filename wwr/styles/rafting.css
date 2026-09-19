@@ -122,10 +122,6 @@ section {
     text-align: left;
 }
 
-/ section {
-    line-height: 1.6;
-}
-
 section p {
     margin-bottom: 1px;
 }
@@ -142,6 +138,6 @@ footer {
 }
 
 .socialmedia img {
-    width: 32px;
-    height: auto;
+    width: 75px;
+    height: 75px;
 }
