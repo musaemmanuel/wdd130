@@ -29,19 +29,19 @@ header {
     padding: 16px;
 }
 
-header .logo {
+.logo {
     height: 60px;
     display: block;
     margin-bottom: 8px;
 }
 
-header nav ul {
+nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-header nav a {
+nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
